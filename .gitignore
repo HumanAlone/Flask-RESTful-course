@@ -1,0 +1,95 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@HumanAlone 
+microsoft
+/
+vscode-python
+Public
+forked from DonJayamanne/pythonVSCode
+Code
+Issues
+703
+Pull requests
+6
+Discussions
+Actions
+Wiki
+Security
+Insights
+vscode-python/.gitignore
+@paulacamargo25
+paulacamargo25 Add localization (#18962)
+…
+Latest commit 0974f92 on 6 May
+ History
+ 10 contributors
+@DonJayamanne@ericsnowcurrently@jakebailey@brettcannon@rchiodo@karthiknadig@d3r3kk@int19h@paulacamargo25@TylerLeonhardt
+48 lines (48 sloc)  700 Bytes
+
+.DS_Store
+.huskyrc.json
+out
+log.log
+**/node_modules
+*.pyc
+*.vsix
+**/.vscode/.ropeproject/**
+**/testFiles/**/.cache/**
+*.noseids
+.nyc_output
+.vscode-test
+__pycache__
+npm-debug.log
+**/.mypy_cache/**
+!yarn.lock
+coverage/
+cucumber-report.json
+**/.vscode-test/**
+**/.vscode test/**
+**/.vscode-smoke/**
+**/.venv*/
+port.txt
+precommit.hook
+pythonFiles/lib/**
+debug_coverage*/**
+languageServer/**
+languageServer.*/**
+bin/**
+obj/**
+.pytest_cache
+tmp/**
+.python-version
+.vs/
+test-results*.xml
+xunit-test-results.xml
+build/ci/performance/performance-results.json
+!build/
+debug*.log
+debugpy*.log
+pydevd*.log
+nodeLanguageServer/**
+nodeLanguageServer.*/**
+dist/**
+# translation files
+*.xlf
+*.nls.*.json
+*.i18n.json
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

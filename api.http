@@ -1,0 +1,14 @@
+GET http://127.0.0.1:5000/items HTTP/1.1
+
+###
+
+GET http://127.0.0.1:5000/item/siska HTTP/1.1
+
+###
+
+POST http://127.0.0.1:5000/item/siska HTTP/1.1
+content-type: application/json
+
+{
+    "price": 134.5
+}
